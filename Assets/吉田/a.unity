@@ -261,11 +261,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6158966779474479276, guid: 2774bb0ee40f0bb42bcc584984eb3a3a, type: 3}
   m_PrefabInstance: {fileID: 2012548837434839427}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &557429346 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5725506578914863633, guid: 6a9ea921b4c7a854091936bc1427b3f4, type: 3}
-  m_PrefabInstance: {fileID: 6727290582435435323}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &594256639
 GameObject:
   m_ObjectHideFlags: 0
@@ -662,19 +657,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 914238252}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 82184fcc6bad9f34680d761fc3520b53, type: 3}
+  m_Script: {fileID: 11500000, guid: e331a2b0e0e460f47a72bb6b73e4d807, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
   jumpForce: 5
-  cameraTransform: {fileID: 275732519}
+  cameraTransform: {fileID: 0}
   mouseSensitivity: 2
   ballPrefabs:
   - {fileID: 413141399}
-  - {fileID: 1026851963}
-  - {fileID: 557429346}
-  - {fileID: 1696951488}
-  shootPoint: {fileID: 914238257}
+  shootPoint: {fileID: 0}
   shootForce: 20
 --- !u!54 &914238259
 Rigidbody:
@@ -703,16 +695,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!1 &1026851963 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2438729152552609616, guid: 4483bcf5533cc60419f5da4767cc5d70, type: 3}
-  m_PrefabInstance: {fileID: 3096636435542867577}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1696951488 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5825750582635224151, guid: ac4aeb15a8ecca947a85e91c36c37dc7, type: 3}
-  m_PrefabInstance: {fileID: 4018151580050532222}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1881846641
 GameObject:
   m_ObjectHideFlags: 0
